@@ -50,16 +50,3 @@ The default subsets are:
 | MovieLens-1M | 3,000 | 500, 1,000, 1,500, 2,000 |
 | Netflix Prize | 5,000 | 500, 1,000, 1,500, 2,000 |
 | Amazon Book | 10,000 | 200, 400, 600, 800, 1,000 |
-
-## Reproducibility notes
-
-Large-scale cryptographic timing is estimated from protocol operation counts
-and measured modular-arithmetic costs. These estimates do not include bounded
-discrete-logarithm recovery. Small-scale secure multi-sum checks are executed
-directly.
-
-The Van/Dung Phase-1 runtime values included in the code are the values reported
-in the manuscript and are stored separately from measurements produced by this
-implementation.
-
-Experiment outputs are written under `results/`.
