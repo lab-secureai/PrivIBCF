@@ -1,0 +1,8 @@
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
+pyarrow>=12.0
+kagglehub>=0.3
+tqdm>=4.65
+psutil>=5.9
